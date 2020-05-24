@@ -26,6 +26,10 @@ patch:
       - xform/([nl])v/$1ü/
       - xform/([nl])ue/$1üe/
       - xform/([jqxy])v/$1u/
-  
+
   punctuator:
-    import_preset: my_symbols
+    import_preset: symbols.custom
+
+  recognizer:
+    patterns:
+      punct: "^/([a-z]+|[0-9]0?)$"
