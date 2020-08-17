@@ -9,6 +9,8 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
+  - luna_pinyin.basic_extended
+  - luna_pinyin.hanyu
   - luna_pinyin.personal
   - luna_pinyin.input_method
   - luna_pinyin.thuocl
