@@ -12,13 +12,34 @@ patch:
       states: [ 。，, ．， ]
 
   schema/dependencies/@next: easy_en
-  engine/translators/@next: table_translator@english
-  english:
-    dictionary: easy_en
-    spelling_hints: 9
+  engine/translators/@next: table_translator@easy_en
+  easy_en:
+    __include: easy_en.schema:/translator
     enable_completion: true
     enable_sentence: false
     initial_quality: -2
+
+  speller/algebra:
+    - erase/^xx$/                         # 第一行保留
+    - abbrev/^([a-z]).+$/$1/              # 簡拼（首字母）
+    - abbrev/^([zcs]h).+$/$1/             # 簡拼（zh, ch, sh）
+    - derive/^([nl])ve$/$1ue/             # nve = nue, lve = lue
+    - derive/^([jqxy])u/$1v/              # ju = jv,
+    - derive/un$/uen/                     # gun = guen,
+    - derive/ui$/uei/                     # gui = guei,
+    - derive/iu$/iou/                     # jiu = jiou,
+    - derive/([aeiou])ng$/$1gn/           # dagn => dang
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
+    - derive/ong$/on/                     # zhonguo => zhong guo
+    - derive/ao$/oa/                      # hoa => hao
+    - derive/([iu])a(o|ng?)$/a$1$2/       # tain => tian
+    - derive/^([zcs])h/$1/                # zh, ch, sh => z, c, s
+    - derive/^([zcs])([^h])/$1h$2/        # z, c, s => zh, ch, sh
+    - derive/^n/l/                        # n => l
+    - derive/^l/n/                        # l => n
+    - derive/^([bpmf])eng$/$1ong/         # meng = mong, ...
+    - derive/([ei])n$/$1ng/               # en => eng, in => ing
+    - derive/([ei])ng$/$1n/               # eng => en, ing => in
 
   translator:
     dictionary: luna_pinyin.extended

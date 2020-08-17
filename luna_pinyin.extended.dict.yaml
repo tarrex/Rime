@@ -15,7 +15,6 @@ import_tables:
   - luna_pinyin.input_method
   - luna_pinyin.thuocl
   - luna_pinyin.poetry
-  - luna_pinyin.cn_en
   - luna_pinyin.kaomoji
   - luna_pinyin.extra_hanzi
 ...
