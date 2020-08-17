@@ -1,8 +1,51 @@
 patch:
   show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
 
+  app_options:                                  # 默认英文模式的软件
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.apple.finder:
+      ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.apple.calculator:
+      ascii_mode: true
+    com.apple.launchpad.launcher:
+      ascii_mode: true
+    com.apple.systempreferences:
+      ascii_mode: true
+    com.apple.ActivityMonitor:
+      ascii_mode: true
+    com.apple.keychainaccess:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      ascii_mode: true
+    com.jetbrains.datagrip:
+      ascii_mode: true
+    com.jetbrains.pycharm:
+      ascii_mode: true
+    io.nteract.nteract:
+      ascii_mode: true
+    com.sequelpro.SequelPro:
+      ascii_mode: true
+    io.termix.client:
+      ascii_mode: true
+    com.kapeli.dashdoc:
+      ascii_mode: true
+    com.eusoft.eudic:
+      ascii_mode: true
+
   style:
     color_scheme: tarrex
+
   preset_color_schemes:
     tarrex:
       name: tarrex

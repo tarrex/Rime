@@ -5,13 +5,16 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
-Golang	gol	100000000
-Redis	red	100000000
-Nginx	ngi	100000000
-MySQL	mys	100000000
-哈哈	hh	100000000
-哈哈哈	hhh	100000000
-哈哈哈哈	hhhh	100000000
-哈哈哈哈哈	hhhhh	100000000
-哈哈哈哈哈哈哈哈哈	hhhhhh	100000000
-嗯嗯	ee	100000000
+Golang	gol	1
+Redis	red	1
+Nginx	ngi	1
+MySQL	mys	1
+PostgreSQL	pos	1
+OpenResty	openr	1
+Kubernetes	kub	1
+哈哈	hh	1
+哈哈哈	hhh	1
+哈哈哈哈	hhhh	1
+哈哈哈哈哈	hhhhh	1
+哈哈哈哈哈哈哈哈哈	hhhhhh	1
+嗯嗯	ee	1

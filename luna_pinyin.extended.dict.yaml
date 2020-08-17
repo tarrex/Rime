@@ -4,22 +4,15 @@
 
 ---
 name: luna_pinyin.extended
-version: "2020.05.24"
+version: "2020.08.17"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
   - luna_pinyin.personal
-  - luna_pinyin.sogou
-  - luna_pinyin.sogou.jisuanji
-  - luna_pinyin.sogou.quanguodiming
-  - luna_pinyin.sogou.shuxue
-  - luna_pinyin.sogou.yinshidaquan
-  - luna_pinyin.net
-  - luna_pinyin.user
-  - luna_pinyin.cn_en
-  - luna_pinyin.biaoqing
+  - luna_pinyin.sogou.pinyin
   - luna_pinyin.poetry
-  - luna_pinyin.shopping
+  - luna_pinyin.cn_en
+  - luna_pinyin.kaomoji
   - luna_pinyin.extra_hanzi
 ...
