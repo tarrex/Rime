@@ -1,0 +1,1529 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 詞庫包含如下內容；
+#   計算機部分專業詞彙。
+#   數據來源：搜狗輸入法
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: luna_pinyin.computer
+version: "2020.08.26"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+鞍點	an dian
+按扭	an niu
+白盒	bai he
+白箱	bai xiang
+綁定	bang ding
+報表	bao biao
+暴露	bao lu
+報文	bao wen
+備份	bei fen
+備用	bei yong
+崩潰	beng kui
+編程	bian cheng
+變度	bian du
+變換	bian huan
+變焦	bian jiao
+邊界	bian jie
+遍歷	bian li
+變量	bian liang
+編碼	bian ma
+編譯	bian yi
+變異	bian yi
+邊緣	bian yuan
+編址	bian zhi
+變址	bian zhi
+表格	biao ge
+標籤	biao qian
+表徵	biao zheng
+別名	bie ming
+病毒	bing du
+並行	bing xing
+博弈	bo yi
+補償	bu chang
+捕獲	bu huo
+步進	bu jin
+佈局	bu ju
+採樣	cai yang
+參見	can jian
+參數	can shu
+策略	ce lue
+查錯	cha cuo
+查看	cha kan
+拆分	chai fen
+常量	chang liang
+撤消	che xiao
+程序	cheng xu
+成員	cheng yuan
+池化	chi hua
+重繪	chong hui
+重載	chong zai
+抽象	chou xiang
+窗體	chuang ti
+詞塊	ci kuai
+次數	ci shu
+存取	cun qu
+打破	da po
+代溝	dai gou
+帶寬	dai kuan
+代碼	dai ma
+地址	di zhi
+調用	diao yong
+丟包	diu bao
+動量	dong liang
+斷點	duan dian
+斷言	duan yan
+隊列	dui lie
+對象	dui xiang
+堆棧	dui zhan
+多態	duo tai
+閥值	fa zhi
+泛化	fan hua
+反射	fan she
+範圍	fan wei
+泛型	fan xing
+方法	fang fa
+訪問	fang wen
+分配	fen pei
+封裝	feng zhuang
+否則	fou ze
+浮點	fu dian
+覆蓋	fu gai
+父類	fu lei
+複製	fu zhi
+賦值	fu zhi
+告警	gao jing
+高效	gao xiao
+個體	ge ti
+工程	gong cheng
+共現	gong xian
+掛了	gua le
+關閉	guan bi
+關聯	guan lian
+哈希	ha xi
+函數	han shu
+畫筆	hua bi
+畫線	hua xian
+緩衝	huan chong
+彙編	hui bian
+迴歸	hui gui
+回調	hui tiao
+活化	huo hua
+活鎖	huo suo
+繼承	ji cheng
+計次	ji ci
+激活	ji huo
+基類	ji lei
+集羣	ji qun
+計數	ji shu
+繼續	ji xu
+基因	ji yin
+架構	jia gou
+加密	jia mi
+鑑權	jian quan
+剪枝	jian zhi
+腳本	jiao ben
+交叉	jiao cha
+校驗	jiao yan
+接口	jie kou
+解碼	jie ma
+解密	jie mi
+解析	jie xi
+進程	jin cheng
+進化	jin hua
+近似	jin si
+句柄	ju bing
+局部	ju bu
+聚合	ju he
+居中	ju zhong
+開發	kai fa
+開關	kai guan
+框架	kuang jia
+類庫	lei ku
+類體	lei ti
+類圖	lei tu
+鏈表	lian biao
+輪詢	lun xun
+冒泡	mao pao
+冒煙	mao yan
+枚舉	mei ju
+面板	mian ban
+默認	mo ren
+木馬	mu ma
+排錯	pai cuo
+排擠	pai ji
+排期	pai qi
+排序	pai xu
+拋出	pao chu
+配對	pei dui
+配置	pei zhi
+偏差	pian cha
+偏置	pian zhi
+頻寬	pin kuan
+破密	po mi
+簽名	qian ming
+嵌入	qian ru
+嵌套	qian tao
+取用	qu yong
+全局	quan ju
+全選	quan xuan
+權重	quan zhong
+缺省	que sheng
+闕值	que zhi
+羣體	qun ti
+容器	rong qi
+如果	ru guo
+散度	san du
+篩法	shai fa
+上限	shang xian
+設值	she zhi
+生成	sheng cheng
+實參	shi can
+事件	shi jian
+實例	shi li
+視圖	shi tu
+事務	shi wu
+收斂	shou lian
+授權	shou quan
+輸出	shu chu
+數據	shu ju
+樹庫	shu ku
+輸入	shu ru
+屬性	shu xing
+數值	shu zhi
+數組	shu zu
+死鎖	si suo
+搜尋	sou xun
+算法	suan fa
+損失	sun shi
+索引	suo yin
+替換	ti huan
+調試	tiao shi
+同步	tong bu
+通常	tong chang
+圖論	tu lun
+圖片	tu pian
+凸性	tu xing
+推導	tui dao
+網關	wang guan
+委託	wei tuo
+位域	wei yu
+位址	wei zhi
+文本	wen ben
+下標	xia biao
+線程	xian cheng
+協議	xie yi
+形參	xing can
+選擇	xuan ze
+雪崩	xue beng
+循環	xun huan
+壓測	ya ce
+延遲	yan chi
+驗籤	yan qian
+業務	ye wu
+異步	yi bu
+異常	yi chang
+遺傳	yi chuan
+引數	yin shu
+應用	ying yong
+預減	yu jian
+語句	yu ju
+域名	yu ming
+語言	yu yan
+元素	yuan su
+越界	yue jie
+運行	yun xing
+髒讀	zang du
+棧法	zhan fa
+棧區	zhan qu
+展示	zhan shi
+張量	zhang liang
+陣列	zhen lie
+整型	zheng xing
+指定	zhi ding
+只讀	zhi du
+指派	zhi pai
+指針	zhi zhen
+轉型	zhuan xing
+追加	zhui jia
+字段	zi duan
+字符	zi fu
+子集	zi ji
+自減	zi jian
+字節	zi jie
+子類	zi lei
+字體	zi ti
+自增	zi zeng
+總線	zong xian
+阻塞	zu se
+最前	zui qian
+安全類	an quan lei
+安全性	an quan xing
+安全域	an quan yu
+八叉樹	ba cha shu
+版本號	ban ben hao
+包過濾	bao guo lv
+保留字	bao liu zi
+本地化	ben di hua
+編輯器	bian ji qi
+變量表	bian liang biao
+編碼器	bian ma qi
+便攜性	bian xie xing
+編譯器	bian yi qi
+編譯期	bian yi qi
+編譯時	bian yi shi
+標記化	biao ji hua
+標識符	biao zhi fu
+標準庫	biao zhun ku
+併發數	bing fa shu
+並行度	bing xing du
+並行化	bing xing hua
+餅形圖	bing xing tu
+並行性	bing xing xing
+博弈論	bo yi lun
+博弈樹	bo yi shu
+博弈圖	bo yi tu
+不變量	bu bian liang
+不變式	bu bian shi
+布爾型	bu er xing
+部署圖	bu shu tu
+步序列	bu xu lie
+不重性	bu zhong xing
+菜單項	cai dan xiang
+參考碼	can kao ma
+參考幀	can kao zhen
+參與者	can yu zhe
+操作符	cao zuo fu
+測試板	ce shi ban
+測試點	ce shi dian
+層次網	ceng ci wang
+長整數	chang zheng shu
+長整型	chang zheng xing
+超參數	chao can shu
+超鏈接	chao lian jie
+程序包	cheng xu bao
+程序池	cheng xu chi
+程序段	cheng xu duan
+程序集	cheng xu ji
+程序員	cheng xu yuan
+抽象的	chou xiang de
+抽象類	chou xiang lei
+抽象體	chou xiang ti
+抽象物	chou xiang wu
+抽象性	chou xiang xing
+觸發器	chu fa qi
+處理器	chu li qi
+初始化	chu shi hua
+純合子	chun he zi
+詞嵌入	ci qian ru
+錯誤率	cuo wu lv
+大數據	da shu ju
+單倍體	dan bei ti
+單片機	dan pian ji
+單線程	dan xian cheng
+低配置	di pei zhi
+低時延	di shi yan
+調用表	diao yong biao
+調用類	diao yong lei
+動多態	dong duo tai
+動態性	dong tai xing
+端到端	duan dao duan
+短整數	duan zheng shu
+短整型	duan zheng xing
+對象名	dui xiang ming
+對象圖	dui xiang tu
+多倍體	duo bei ti
+多對象	duo dui xiang
+多進程	duo jin cheng
+多任務	duo ren wu
+多線程	duo xian cheng
+多用戶	duo yong hu
+二叉樹	er cha shu
+返回值	fan hui zhi
+方法名	fang fa ming
+仿函數	fang han shu
+防火牆	fang huo qiang
+仿射層	fang she ceng
+訪問器	fang wen qi
+非阻塞	fei zu se
+分辨率	fen bian lv
+分佈式	fen bu shi
+分割線	fen ge xian
+分配器	fen pei qi
+浮點型	fu dian xing
+服務器	fu wu qi
+概念圖	gai nian tu
+感知器	gan zhi qi
+高吞吐	gao tun tu
+高響應	gao xiang ying
+高性能	gao xing neng
+格雷碼	ge lei ma
+工具類	gong ju lei
+共適應	gong shi ying
+共用體	gong yong ti
+公有的	gong you de
+構件圖	gou jian tu
+構造體	gou zao ti
+構造型	gou zao xing
+關鍵字	guan jian zi
+關聯項	guan lian xiang
+哈希表	ha xi biao
+函數式	han shu shi
+宏定義	hong ding yi
+畫矩形	hua ju xing
+畫橢圓	hua tuo yuan
+緩衝區	huan chong qu
+幻象讀	huan xiang du
+回原點	hui yuan dian
+活動圖	huo dong tu
+集合類	ji he lei
+機器碼	ji qi ma
+機器人	ji qi ren
+計算機	ji suan ji
+基因型	ji yin xing
+基因組	ji yin zu
+基因座	ji yin zuo
+價函數	jia han shu
+簡單性	jian dan xing
+監視表	jian shi biao
+監聽器	jian ting qi
+健壯性	jian zhuang xing
+交叉熵	jiao cha shang
+交互圖	jiao hu tu
+結構體	jie gou ti
+解釋性	jie shi xing
+解析樹	jie xi shu
+進程名	jin cheng ming
+進度條	jin du tiao
+靜多態	jing duo tai
+具體的	ju ti de
+決策樹	jue ce shu
+開發包	kai fa bao
+開發員	kai fa yuan
+可靠性	ke kao xing
+可行性	ke xing xing
+可用性	ke yong xing
+擴展點	kuo zhan dian
+擴展性	kuo zhan xing
+類變量	lei bian liang
+類層次	lei ceng ci
+類方法	lei fang fa
+類函數	lei han shu
+類繼承	lei ji cheng
+類接口	lei jie kou
+離策略	li ce lue
+離線的	li xian de
+連接池	lian jie chi
+令牌環	ling pai huan
+流體系	liu ti xi
+邏輯非	luo ji fei
+邏輯或	luo ji huo
+邏輯與	luo ji yu
+邏輯值	luo ji zhi
+密碼域	mi ma yu
+模塊化	mo kuai hua
+模式階	mo shi jie
+模板庫	mu ban ku
+派生類	pai sheng lei
+判別器	pan bie qi
+配接器	pei jie qi
+配置器	pei zhi qi
+批處理	pi chu li
+譜聚類	pu ju lei
+嵌入式	qian ru shi
+取錯誤	qu cuo wu
+取接口	qu jie kou
+取數值	qu shu zhi
+全編譯	quan bian yi
+染色體	ran se ti
+散列桶	san lie tong
+生成器	sheng cheng qi
+識別度	shi bie du
+實例化	shi li hua
+實例名	shi li ming
+適配器	shi pei qi
+實時的	shi shi de
+適應度	shi ying du
+適用性	shi yong xing
+數據包	shu ju bao
+數據報	shu ju bao
+數據集	shu ju ji
+數據庫	shu ju ku
+數據值	shu ju zhi
+雙倍體	shuang bei ti
+順序圖	shun xu tu
+死循環	si xun huan
+私有的	si you de
+透明度	tou ming du
+圖靈機	tu ling ji
+吞吐量	tun tu liang
+僞變量	wei bian liang
+文本區	wen ben qu
+穩健性	wen jian xing
+無符號	wu fu hao
+下拉框	xia la kuang
+小程序	xiao cheng xu
+小生境	xiao sheng jing
+消息池	xiao xi chi
+協議棧	xie yi zhan
+協作圖	xie zuo tu
+修飾符	xiu shi fu
+虛方法	xu fang fa
+虛擬機	xu ni ji
+循環類	xun huan lei
+演算法	yan suan fa
+遺傳學	yi chuan xue
+一對多	yi dui duo
+隱藏層	yin cang ceng
+隱式的	yin shi de
+引用名	yin yong ming
+用例圖	yong li tu
+有符號	you fu hao
+優先級	you xian ji
+有效性	you xiao xing
+預定義	yu ding yi
+預選擇	yu xuan ze
+源程序	yuan cheng xu
+元數據	yuan shu ju
+源文件	yuan wen jian
+雲服務	yun fu wu
+雲計算	yun ji suan
+運算符	yun suan fu
+運算子	yun suan zi
+運行期	yun xing qi
+運行時	yun xing shi
+雜合子	za he zi
+在策略	zai ce lue
+在線的	zai xian de
+知識庫	zhi shi ku
+重用性	zhong yong xing
+註冊碼	zhu ce ma
+助記符	zhu ji fu
+轉換器	zhuan huan qi
+裝配件	zhuang pei jian
+裝飾器	zhuang shi qi
+狀態條	zhuang tai tiao
+狀態圖	zhuang tai tu
+自變量	zi bian liang
+子程序	zi cheng xu
+字符串	zi fu chuan
+字符型	zi fu xing
+字節集	zi jie ji
+字節碼	zi jie ma
+字節型	zi jie xing
+字面值	zi mian zhi
+安全操作	an quan cao zuo
+安全策略	an quan ce lue
+安全措施	an quan cuo shi
+安全等級	an quan deng ji
+安全檢查	an quan jian cha
+安全控制	an quan kong zhi
+安全模式	an quan mo shi
+安全模型	an quan mo xing
+安全內核	an quan nei he
+安全認證	an quan ren zheng
+安全審計	an quan shen ji
+安全識別	an quan shi bie
+安全事件	an quan shi jian
+安全許可	an quan xu ke
+按下鍵盤	an xia jian pan
+按值傳遞	an zhi chuan di
+安裝調試	an zhuang tiao shi
+白盒測試	bai he ce shi
+白箱測試	bai xiang ce shi
+版本管理	ban ben guan li
+版本檢測	ban ben jian ce
+版本控制	ban ben kong zhi
+版本升級	ban ben sheng ji
+辦公過程	ban gong guo cheng
+辦公活動	ban gong huo dong
+辦公流程	ban gong liu cheng
+報酬分析	bao chou fen xi
+包含文件	bao han wen jian
+報警復位	bao jing fu wei
+報警顯示	bao jing xian shi
+報警信號	bao jing xin hao
+保留內存	bao liu nei cun
+報文捕獲	bao wen bu huo
+報文加密	bao wen jia mi
+報文鑑別	bao wen jian bie
+報文交換	bao wen jiao huan
+報文摘譯	bao wen zhai yi
+揹包問題	bei bao wen ti
+被測變量	bei ce bian liang
+被調用者	bei diao yong zhe
+被動查詢	bei dong cha xun
+被動威脅	bei dong wei xie
+備份過程	bei fen guo cheng
+備份文件	bei fen wen jian
+備用冗餘	bei yong rong yu
+本地代碼	ben di dai ma
+本地地址	ben di di zhi
+本地接口	ben di jie kou
+本地終端	ben di zhong duan
+本地主機	ben di zhu ji
+本類對象	ben lei dui xiang
+變長編碼	bian chang bian ma
+編程工具	bian cheng gong ju
+編程環境	bian cheng huan jing
+編程開發	bian cheng kai fa
+編程語言	bian cheng yu yan
+變更轉儲	bian geng zhuan chu
+變化檢測	bian hua jian ce
+變換編碼	bian huan bian ma
+變換處理	bian huan chu li
+變換分析	bian huan fen xi
+變換規則	bian huan gui ze
+變換系統	bian huan xi tong
+變換語義	bian huan yu yi
+變換中心	bian huan zhong xin
+編輯程序	bian ji cheng xu
+邊界變異	bian jie bian yi
+邊界表示	bian jie biao shi
+邊界佈局	bian jie bu ju
+邊界錯誤	bian jie cuo wu
+邊界跟蹤	bian jie gen zong
+邊界檢測	bian jie jian ce
+邊界建模	bian jie jian mo
+編解碼器	bian jie ma qi
+邊界模型	bian jie mo xing
+邊界掃描	bian jie sao miao
+邊界條件	bian jie tiao jian
+編碼表示	bian ma biao shi
+編碼方法	bian ma fang fa
+編碼效率	bian ma xiao lv
+編碼字符	bian ma zi fu
+扁平封裝	bian ping feng zhuang
+邊寫邊讀	bian xie bian du
+邊沿觸發	bian yan chu fa
+編譯程序	bian yi cheng xu
+變異概率	bian yi gai lv
+編譯類型	bian yi lei xing
+變異頻率	bian yi pin lv
+變異算子	bian yi suan zi
+編譯執行	bian yi zhi xing
+邊緣操作	bian yuan cao zuo
+邊緣測試	bian yuan ce shi
+邊緣觸發	bian yuan chu fa
+邊緣泛化	bian yuan fan hua
+邊緣分割	bian yuan fen ge
+邊緣故障	bian yuan gu zhang
+邊緣檢測	bian yuan jian ce
+邊緣檢驗	bian yuan jian yan
+邊緣聚焦	bian yuan ju jiao
+邊緣連接	bian yuan lian jie
+邊緣擬合	bian yuan ni he
+邊緣匹配	bian yuan pi pei
+邊緣算子	bian yuan suan zi
+邊緣提取	bian yuan ti qu
+邊緣調整	bian yuan tiao zheng
+邊緣增強	bian yuan zeng qiang
+表徵學習	biao zheng xue xi
+標準配置	biao zhun pei zhi
+標準輸出	biao zhun shu chu
+標準輸入	biao zhun shu ru
+標準文件	biao zhun wen jian
+標準語言	biao zhun yu yan
+標準中斷	biao zhun zhong duan
+別名分析	bie ming fen xi
+病毒簽名	bing du qian ming
+併發變遷	bing fa bian qian
+併發處理	bing fa chu li
+併發仿真	bing fa fang zhen
+併發公理	bing fa gong li
+併發關係	bing fa guan xi
+併發進程	bing fa jin cheng
+併發控制	bing fa kong zhi
+併發模擬	bing fa mo ni
+並聯匹配	bing lian pi pei
+並行操作	bing xing cao zuo
+並行處理	bing xing chu li
+並行傳輸	bing xing chuan shu
+並行端口	bing xing duan kou
+並行計算	bing xing ji suan
+並行建模	bing xing jian mo
+並行聯結	bing xing lian jie
+並行連接	bing xing lian jie
+並行模擬	bing xing mo ni
+並行搜索	bing xing sou suo
+並行算法	bing xing suan fa
+補償事務	bu chang shi wu
+補償網絡	bu chang wang luo
+布爾查找	bu er cha zhao
+布爾代數	bu er dai shu
+布爾過程	bu er guo cheng
+布爾類型	bu er lei xing
+布爾搜索	bu er sou suo
+布爾運算	bu er yun suan
+不歸零制	bu gui ling zhi
+不合邏輯	bu he luo ji
+捕獲異常	bu huo yi chang
+部件編碼	bu jian bian ma
+部件拆分	bu jian chai fen
+步進控制	bu jin kong zhi
+步可達性	bu ke da xing
+不可抵賴	bu ke di lai
+不透明度	bu tou ming du
+不完全性	bu wan quan xing
+不一致性	bu yi zhi xing
+採樣插件	cai yang cha jian
+採樣方式	cai yang fang shi
+採樣分佈	cai yang fen bu
+採樣控制	cai yang kong zhi
+殘差網絡	can cha wang luo
+殘差映射	can cha ying she
+參考監控	can kao jian kong
+參數測試	can shu ce shi
+參數傳遞	can shu chuan di
+參數估計	can shu gu ji
+參數故障	can shu gu zhang
+參數幾何	can shu ji he
+參數空間	can shu kong jian
+參數信息	can shu xin xi
+操作系統	cao zuo xi tong
+測量範圍	ce liang fan wei
+測試報告	ce shi bao gao
+測試程序	ce shi cheng xu
+測試覆蓋	ce shi fu gai
+測試規約	ce shi gui yue
+測試過程	ce shi guo cheng
+測試函數	ce shi han shu
+測試環路	ce shi huan lu
+測試迴路	ce shi hui lu
+測試計劃	ce shi ji hua
+測試階段	ce shi jie duan
+測試例程	ce shi li cheng
+測試任務	ce shi ren wu
+測試日誌	ce shi ri zhi
+測試設備	ce shi she bei
+測試生成	ce shi sheng cheng
+測試時間	ce shi shi jian
+測試數據	ce shi shu ju
+測試順序	ce shi shun xu
+測試探針	ce shi tan zhen
+測試文本	ce shi wen ben
+測試響應	ce shi xiang ying
+測試語言	ce shi yu yan
+測試運行	ce shi yun xing
+層次分解	ceng ci fen jie
+層次結構	ceng ci jie gou
+層次模型	ceng ci mo xing
+插入圖標	cha ru tu biao
+插入位置	cha ru wei zhi
+超級木馬	chao ji mu ma
+超類對象	chao lei dui xiang
+超立方體	chao li fang ti
+撤消事件	che xiao shi jian
+成本函數	cheng ben han shu
+程序備註	cheng xu bei zhu
+程序舉例	cheng xu ju li
+程序開發	cheng xu kai fa
+程序類型	cheng xu lei xing
+程序名稱	cheng xu ming cheng
+程序異常	cheng xu yi chang
+成員變量	cheng yuan bian liang
+成員方法	cheng yuan fang fa
+成員函數	cheng yuan han shu
+成員屬性	cheng yuan shu xing
+抽象方法	chou xiang fang fa
+處理函數	chu li han shu
+初始羣體	chu shi qun ti
+傳值參數	chuan zhi can shu
+創建對象	chuang jian dui xiang
+窗口標題	chuang kou biao ti
+窗體大小	chuang ti da xiao
+純虛方法	chun xu fang fa
+詞性標註	ci xing biao zhu
+詞義消歧	ci yi xiao qi
+存儲過程	cun chu guo cheng
+存儲技術	cun chu ji shu
+存放數據	cun fang shu ju
+存取函式	cun qu han shi
+存取級別	cun qu ji bie
+代碼分析	dai ma fen xi
+單點登錄	dan dian deng lu
+單點交叉	dan dian jiao cha
+單例模式	dan li mo shi
+單行註釋	dan xing zhu shi
+單選按扭	dan xuan an niu
+單元測試	dan yuan ce shi
+當前對象	dang qian dui xiang
+當且僅當	dang qie jin dang
+倒位概率	dao wei gai lv
+倒位算子	dao wei suan zi
+島嶼模型	dao yu mo xing
+等位基因	deng wei ji yin
+遞歸函數	di gui han shu
+地址總線	di zhi zong xian
+點擊鍵盤	dian ji jian pan
+定位遊標	ding wei you biao
+定向營銷	ding xiang ying xiao
+定址空間	ding zhi kong jian
+動靜多態	dong jing duo tai
+動態綁定	dong tai bang ding
+動態融合	dong tai rong he
+動作事件	dong zuo shi jian
+動作演示	dong zuo yan shi
+賭盤選擇	du pan xuan ze
+對抗網絡	dui kang wang luo
+對數似然	dui shu si ran
+多點交叉	duo dian jiao cha
+多功能條	duo gong neng tiao
+多行註釋	duo hang zhu shi
+多維數組	duo wei shu zu
+多線索性	duo xian suo xing
+多選按扭	duo xuan an niu
+額外信息	e wai xin xi
+惡意攻擊	e yi gong ji
+二叉鏈表	er cha lian biao
+二分查找	er fen cha zhao
+二維數組	er wei shu zu
+發展歷程	fa zhan li cheng
+發展前景	fa zhan qian jing
+返回類型	fan hui lei xing
+反射機制	fan she ji zhi
+反向傳播	fan xiang chuan bo
+方差困境	fang cha kun jing
+訪問函數	fang wen han shu
+訪問級別	fang wen ji bie
+訪問令牌	fang wen ling pai
+非凸優化	fei tu you hua
+分組協議	fen zu xie yi
+封裝方式	feng zhuang fang shi
+封裝字段	feng zhuang zi duan
+改變目錄	gai bian mu lu
+改變數值	gai bian shu zhi
+概率算法	gai lv suan fa
+概率算子	gai lv suan zi
+概要分析	gai yao fen xi
+高可用性	gao ke yong xing
+高斯變異	gao si bian yi
+高速緩存	gao su huan cun
+個體編碼	ge ti bian ma
+更新機制	geng xin ji zhi
+工廠模式	gong chang mo shi
+公開測試	gong kai ce shi
+共享函數	gong xiang han shu
+工作原理	gong zuo yuan li
+構造方法	gou zao fang fa
+構造函數	gou zao han shu
+關聯分析	guan lian fen xi
+規則引擎	gui ze yin qing
+滾動面板	gun dong mian ban
+海明距離	hai ming ju li
+核心類庫	he xin lei ku
+彙編語言	hui bian yu yan
+恢復線程	hui fu xian cheng
+會話代理	hui hua dai li
+回溯相容	hui su xiang rong
+混合計算	hun he ji suan
+獲得編輯	huo de bian ji
+獲得標籤	huo de biao qian
+獲得焦點	huo de jiao dian
+獲得數據	huo de shu ju
+獲得所選	huo de suo xuan
+獲得文件	huo de wen jian
+基本變異	ji ben bian yi
+基本類型	ji ben lei xing
+繼承接口	ji cheng jie kou
+基礎類別	ji chu lei bie
+基礎型別	ji chu xing bie
+激活函數	ji huo han shu
+機器學習	ji qi xue xi
+技術應用	ji shu ying yong
+技術支持	ji shu zhi chi
+計算成本	ji suan cheng ben
+極性檢測	ji xing jian ce
+基因隱性	ji yin yin xing
+加密次數	jia mi ci shu
+加密結果	jia mi jie guo
+加密文本	jia mi wen ben
+監督程序	jian du cheng xu
+監督學習	jian du xue xi
+剪輯歷史	jian ji li shi
+建立路徑	jian li lu jing
+鍵盤事件	jian pan shi jian
+降維算法	jiang wei suan fa
+腳本語言	jiao ben yu yan
+交叉測試	jiao cha ce shi
+交叉概率	jiao cha gai lv
+交叉算子	jiao cha suan zi
+交換總線	jiao huan zong xian
+解決方案	jie jue fang an
+解釋程序	jie shi cheng xu
+解鎖文件	jie suo wen jian
+解析過程	jie xi guo cheng
+進程句柄	jin cheng ju bing
+進化策略	jin hua ce lue
+進化規劃	jin hua gui hua
+進化計算	jin hua ji suan
+進化算法	jin hua suan fa
+靜態方法	jing tai fang fa
+局部變量	ju bu bian liang
+局部搜索	ju bu sou suo
+決策邊界	jue ce bian jie
+均勻變異	jun yun bian yi
+均勻交叉	jun yun jiao cha
+均值聚類	jun zhi ju lei
+開發環境	kai fa huan jing
+開放源碼	kai fang yuan ma
+可捕獲的	ke bu huo de
+可理解性	ke li jie xing
+可維護性	ke wei hu xing
+可修改性	ke xiu gai xing
+可移植性	ke yi zhi xing
+可追蹤性	ke zhui zong xing
+空間資源	kong jian zi yuan
+擴展集合	kuo zhan ji he
+垃圾回收	la ji hui shou
+類修飾符	lei xiu shi fu
+類裝載器	lei zhuang zai qi
+離線性能	li xian xing neng
+量子計算	liang zi ji suan
+鄰居模型	lin ju mo xing
+臨時對象	lin shi dui xiang
+領域模型	ling yu mo xing
+流式佈局	liu shi bu ju
+螺旋模型	luo xuan mo xing
+冒煙測試	mao yan ce shi
+枚舉成員	mei ju cheng yuan
+枚舉進程	mei ju jin cheng
+門戶網站	men hu wang zhan
+面向對象	mian xiang dui xiang
+面向過程	mian xiang guo cheng
+描述不足	miao shu bu zu
+描述過剩	miao shu guo sheng
+命名空間	ming ming kong jian
+默認按鈕	mo ren an niu
+模式定理	mo shi ding li
+目標函數	mu biao han shu
+納什均衡	na shi jun heng
+內部測試	nei bu ce shi
+內核對象	nei he dui xiang
+判別模型	pan bie mo xing
+配對規則	pei dui gui ze
+拼接算子	pin jie suan zi
+平均池化	ping jun chi hua
+平均梯度	ping jun ti du
+瀑布模型	pu bu mo xing
+啓動事件	qi dong shi jian
+遷移學習	qian yi xue xi
+強化學習	qiang hua xue xi
+強制轉換	qiang zhi zhuan huan
+敲擊鍵盤	qiao ji jian pan
+切斷算子	qie duan suan zi
+清除圖標	qing chu tu biao
+情感分析	qing gan fen xi
+清空內存	qing kong nei cun
+情緒分析	qing xu fen xi
+取邏輯值	qu luo ji zhi
+全局變量	quan ju bian liang
+全局搜索	quan ju sou suo
+全局優化	quan ju you hua
+羣體大小	qun ti da xiao
+人工生命	ren gong sheng ming
+人工智慧	ren gong zhi hui
+人工智能	ren gong zhi neng
+人機交互	ren ji jiao hu
+任務切換	ren wu qie huan
+軟件架構	ruan jian jia gou
+軟件註冊	ruan jian zhu ce
+三維數組	san wei shu zu
+刪除數據	shan chu shu ju
+刪除自身	shan chu zi shen
+設計模式	she ji mo shi
+設置邊框	she zhi bian kuang
+設置標籤	she zhi biao qian
+設置標題	she zhi biao ti
+設置行距	she zhi hang ju
+設置指針	she zhi zhi zhen
+深度學習	shen du xue xi
+生成模型	sheng cheng mo xing
+生成圖片	sheng cheng tu pian
+生成運行	sheng cheng yun xing
+識別文本	shi bie wen ben
+釋放鍵盤	shi fang jian pan
+釋放資源	shi fang zi yuan
+時間步驟	shi jian bu zhou
+事件代理	shi jian dai li
+事件驅動	shi jian qu dong
+實例變量	shi li bian liang
+實例方法	shi li fang fa
+實現接口	shi xian jie kou
+實質參數	shi zhi can shu
+鼠標事件	shu biao shi jian
+鼠標鎖定	shu biao suo ding
+輸出設備	shu chu she bei
+數據報表	shu ju bao biao
+數據成員	shu ju cheng yuan
+數據割接	shu ju ge jie
+數據結構	shu ju jie gou
+數據類型	shu ju lei xing
+數據鏈路	shu ju lian lu
+數據總線	shu ju zong xian
+輸入事件	shu ru shi jian
+數組集合	shu zu ji he
+雙點交叉	shuang dian jiao cha
+順序存儲	shun xu cun chu
+順序交叉	shun xu jiao cha
+私鑰文本	si yao wen ben
+算術交叉	suan shu jiao cha
+隨機算法	sui ji suan fa
+鎖住文件	suo zhu wen jian
+彈出菜單	tan chu cai dan
+貪婪算法	tan lan suan fa
+特性音訊	te xing yin xun
+特徵工程	te zheng gong cheng
+特徵學習	te zheng xue xi
+梯度下降	ti du xia jiang
+提取接口	ti qu jie kou
+體系結構	ti xi jie gou
+填充橢圓	tian chong tuo yuan
+添加編輯	tian jia bian ji
+添加數據	tian jia shu ju
+同步方法	tong bu fang fa
+同步原語	tong bu yuan yu
+同義詞集	tong yi ci ji
+透明標籤	tou ming biao qian
+透明窗口	tou ming chuang kou
+圖片標籤	tu pian biao qian
+圖形界面	tu xing jie mian
+圖形設備	tu xing she bei
+推薦配置	tui jian pei zhi
+託管代碼	tuo guan dai ma
+拖拽鼠標	tuo zhuai shu biao
+網格部局	wang ge bu ju
+網卡信息	wang ka xin xi
+網絡連接	wang luo lian jie
+位址空間	wei zhi kong jian
+文本面板	wen ben mian ban
+文化算法	wen hua suan fa
+文件尺寸	wen jian chi cun
+文件地址	wen jian di zhi
+問題定義	wen ti ding yi
+析構函數	xi gou han shu
+系統崩潰	xi tong beng kui
+系統調用	xi tong diao yong
+系統分析	xi tong fen xi
+系統架構	xi tong jia gou
+系統設計	xi tong she ji
+系統消息	xi tong xiao xi
+下拉列表	xia la lie biao
+下載文件	xia zai wen jian
+線程安全	xian cheng an quan
+線程調度	xian cheng diao du
+線程掛起	xian cheng gua qi
+顯示窗體	xian shi chuang ti
+顯式轉換	xian shi zhuan huan
+線性迴歸	xian xing hui gui
+顯性基因	xian xing ji yin
+線性鏈表	xian xing lian biao
+項目推廣	xiang mu tui guang
+向上轉型	xiang shang zhuan xing
+詳細設計	xiang xi she ji
+向下兼容	xiang xia jian rong
+消息隊列	xiao xi dui lie
+消息機制	xiao xi ji zhi
+需求調研	xu qiu diao yan
+需求分析	xu qiu fen xi
+選擇記憶	xuan ze ji yi
+選擇模型	xuan ze mo xing
+選擇算子	xuan ze suan zi
+選擇語句	xuan ze yu ju
+學習指南	xue xi zhi nan
+循環交叉	xun huan jiao cha
+壓力測試	ya li ce shi
+演化模型	yan hua mo xing
+研究領域	yan jiu ling yu
+業務鏈路	ye wu lian lu
+異常處理	yi chang chu li
+移除所有	yi chu suo you
+遺傳編程	yi chuan bian cheng
+遺傳算法	yi chuan suan fa
+遺傳算子	yi chuan suan zi
+遺傳隱匿	yi chuan yin ni
+移動鼠標	yi dong shu biao
+異構計算	yi gou ji suan
+一維數組	yi wei shu zu
+一種循環	yi zhong xun huan
+因子分解	yin zi fen jie
+硬件休克	ying jian xiu ke
+硬盤信息	ying pan xin xi
+硬盤序號	ying pan xu hao
+應用程式	ying yong cheng shi
+應用程序	ying yong cheng xu
+應用框架	ying yong kuang jia
+用戶界面	yong hu jie mian
+用戶培訓	yong hu pei xun
+用例擴展	yong li kuo zhan
+有序關聯	you xu guan lian
+語言標準	yu yan biao zhun
+語言規範	yu yan gui fan
+語言基礎	yu yan ji chu
+語言評價	yu yan ping jia
+語言特點	yu yan te dian
+語言現象	yu yan xian xiang
+運行環境	yun xing huan jing
+運行系統	yun xing xi tong
+在線性能	zai xian xing neng
+早期收斂	zao qi shou lian
+帳號封鎖	zhang hao feng suo
+知道即可	zhi dao ji ke
+知識表徵	zhi shi biao zheng
+致死基因	zhi si ji yin
+執行更新	zhi xing geng xin
+執行命令	zhi xing ming ling
+中斷請求	zhong duan qing qiu
+終止條件	zhong zhi tiao jian
+注意機制	zhu yi ji zhi
+轉爲大寫	zhuan wei da xie
+轉爲小寫	zhuan wei xiao xie
+裝飾模式	zhuang shi mo shi
+裝箱問題	zhuang xiang wen ti
+裝載的類	zhuang zai de lei
+自編碼器	zi bian ma qi
+子菜單項	zi cai dan xiang
+子代羣體	zi dai qun ti
+自頂向下	zi ding xiang xia
+自動摘要	zi dong zhai yao
+字節流報	zi jie liu bao
+資源保留	zi yuan bao liu
+資源定位	zi yuan ding wei
+總體描述	zong ti miao shu
+組合語言	zu he yu yan
+最大池化	zui da chi hua
+最大似然	zui da si ran
+按扭組單選	an niu zu dan xuan
+安全套接層	an quan tao jie ceng
+按引用傳遞	an yin yong chuan di
+辦公自動化	ban gong zi dong hua
+半監督學習	ban jian du xue xi
+報文鑑別碼	bao wen jian bie ma
+備份與恢復	bei fen yu hui fu
+貝葉斯定理	bei ye si ding li
+貝葉斯網絡	bei ye si wang luo
+比較運算符	bi jiao yun suan fu
+編程式事務	bian cheng shi shi wu
+邊重組交叉	bian chong zu jiao cha
+編碼字符集	bian ma zi fu ji
+編譯時錯誤	bian yi shi cuo wu
+邊緣連接器	bian yuan lian jie qi
+變址寄存器	bian zhi ji cun qi
+標準程序庫	biao zhun cheng xu ku
+並行存儲器	bing xing cun chu qi
+玻爾茲曼機	bo er zi man ji
+博弈樹搜索	bo yi shu sou suo
+不等長編碼	bu deng chang bian ma
+布爾表達式	bu er biao da shi
+部分正確性	bu fen zheng que xing
+不精確推理	bu jing que tui li
+不精確中斷	bu jing que zhong duan
+不可重複讀	bu ke chong fu du
+不可分割的	bu ke fen ge de
+不可靠進程	bu ke kao jin cheng
+不可逆加密	bu ke ni jia mi
+不確定推理	bu que ding tui li
+不確定證據	bu que ding zheng ju
+不確定知識	bu que ding zhi shi
+不完全排錯	bu wan quan pai cuo
+不完全數據	bu wan quan shu ju
+不完全信息	bu wan quan xin xi
+菜單工具欄	cai dan gong ju lan
+參數化設計	can shu hua she ji
+參照完整性	can zhao wan zheng xing
+測試有效性	ce shi you xiao xing
+層次結構圖	ceng ci jie gou tu
+長短期記憶	chang duan qi ji yi
+超限學習機	chao xian xue xi ji
+撤消監聽器	che xiao jian ting qi
+程序版本號	cheng xu ban ben hao
+程序集變量	cheng xu ji bian liang
+大數據技術	da shu ju ji shu
+待編碼數據	dai bian ma shu ju
+單峯值函數	dan feng zhi han shu
+單目運算符	dan mu yun suan fu
+導入一個包	dao ru yi ge bao
+讀內存文本	du nei cun wen ben
+讀內存整數	du nei cun zheng shu
+讀整數內存	du zheng shu nei cun
+多參數編碼	duo can shu bian ma
+多層感知器	duo ceng gan zhi qi
+多峯值函數	duo feng zhi han shu
+多繼承特徵	duo ji cheng te zheng
+多模態函數	duo mo tai han shu
+多文檔摘要	duo wen dang zhai yao
+多線程編程	duo xian cheng bian cheng
+多線索語言	duo xian suo yu yan
+二進制代碼	er jin zhi dai ma
+二元操作符	er yuan cao zuo fu
+罰函數排列	fa han shu pai lie
+返回字符串	fan hui zi fu chuan
+訪問臨界區	fang wen lin jie qu
+非飽和博弈	fei bao he bo yi
+非均勻變異	fei jun yun bian yi
+非線性鏈表	fei xian xing lian biao
+分佈式計算	fen bu shi ji suan
+分佈式架構	fen bu shi jia gou
+分佈式系統	fen bu shi xi tong
+分佈式消息	fen bu shi xiao xi
+分割字符串	fen ge zi fu chuan
+分割字節集	fen ge zi jie ji
+分類器系統	fen lei qi xi tong
+分批標準化	fen pi biao zhun hua
+浮點數編碼	fu dian shu bian ma
+負對數似然	fu dui shu si ran
+賦值操作符	fu zhi cao zuo fu
+賦值運算符	fu zhi yun suan fu
+改變驅動器	gai bian qu dong qi
+概率圖模型	gai lv tu mo xing
+高級選擇夾	gao ji xuan ze jia
+觀察者模式	guan cha zhe mo shi
+管理員帳號	guan li yuan zhang hao
+關聯式容器	guan lian shi rong qi
+函數最優化	han shu zui you hua
+互聯網架構	hu lian wang jia gou
+緩衝一致性	huan chong yi zhi xing
+獲得鍵盤碼	huo de jian pan ma
+積木塊假設	ji mu kuai jia she
+計算機視覺	ji suan ji shi jue
+基因塊假設	ji yin kuai jia she
+鍵盤監聽器	jian pan jian ting qi
+箭頭操作符	jian tou cao zuo fu
+結構化編程	jie gou hua bian cheng
+接口程序集	jie kou cheng xu ji
+進程間通信	jin cheng jian tong xin
+精簡指令集	jing jian zhi ling ji
+徑向基函數	jing xiang ji han shu
+開放源代碼	kai fang yuan dai ma
+可互操作性	ke hu cao zuo xing
+可行性分析	ke xing xing fen xi
+可執行代碼	ke zhi xing dai ma
+類文件格式	lei wen jian ge shi
+量子計算機	liang zi ji suan ji
+臨時子程序	lin shi zi cheng xu
+邏輯關鍵字	luo ji guan jian zi
+邏輯運算符	luo ji yun suan fu
+旅行商問題	lv xing shang wen ti
+馬爾可夫鏈	ma er ke fu lian
+模態最優化	mo tai zui you hua
+啓動子程序	qi dong zi cheng xu
+啓發式算法	qi fa shi suan fa
+期望最大化	qi wang zui da hua
+奇異值分解	qi yi zhi fen jie
+嵌入式領域	qian ru shi ling yu
+嵌入式系統	qian ru shi xi tong
+清空表模型	qing kong biao mo xing
+取磁盤卷標	qu ci pan juan biao
+驅動管理器	qu dong guan li qi
+取址運算子	qu zhi yun suan zi
+羣體多樣性	qun ti duo yang xing
+商業化軟件	shang ye hua ruan jian
+設置加速器	she zhi jia su qi
+神經圖靈機	shen jing tu ling ji
+聲明式事務	sheng ming shi shi wu
+適配器模式	shi pei qi mo shi
+適應度函數	shi ying du han shu
+適應度景象	shi ying du jing xiang
+鼠標監聽器	shu biao jian ting qi
+數據庫管理	shu ju ku guan li
+數據庫系統	shu ju ku xi tong
+數據庫異常	shu ju ku yi chang
+雙精度小數	shuang jing du xiao shu
+算術操作符	suan shu cao zuo fu
+算術運算符	suan shu yun suan fu
+踏腳石模型	ta jiao shi mo xing
+彈出對話框	tan chu dui hua kuang
+條件隨機場	tiao jian sui ji chang
+條件隨機域	tiao jian sui ji yu
+條件運算符	tiao jian yun suan fu
+調試參數行	tiao shi can shu xing
+調試和測試	tiao shi he ce shi
+圖形處理器	tu xing chu li qi
+無監督學習	wu jian du xue xi
+寫整數內存	xie zheng shu nei cun
+信息框提示	xin xi kuang ti shi
+驗收與運行	yan shou yu yun xing
+一個空引用	yi ge kong yin yong
+一元操作符	yi yuan cao zuo fu
+隱動態模型	yin dong tai mo xing
+隱含並行性	yin han bing xing xing
+源程序安全	yuan cheng xu an quan
+元遺傳算法	yuan yi chuan suan fa
+雲計算技術	yun ji suan ji shu
+運行時錯誤	yun xing shi cuo wu
+正式精簡版	zheng shi jing jian ban
+正式完整版	zheng shi wan zheng ban
+支持向量機	zhi chi xiang liang ji
+中央處理器	zhong yang chu li qi
+主成分分析	zhu cheng fen fen xi
+子程序參數	zi cheng xu can shu
+子程序指針	zi cheng xu zhi zhen
+自適應變異	zi shi ying bian yi
+自適應交叉	zi shi ying jiao cha
+資源不釋放	zi yuan bu shi fang
+自組織映射	zi zu zhi ying she
+最近鄰算法	zui jin lin suan fa
+最小二乘法	zui xiao er cheng fa
+按下鼠標事件	an xia shu biao shi jian
+本地存放地址	ben di cun fang di zhi
+比例選擇模型	bi li xuan ze mo xing
+並行遺傳算法	bing xing yi chuan suan fa
+部分匹配交叉	bu fen pi pei jiao cha
+部分映射交叉	bu fen ying she jiao cha
+乘冪尺度變換	cheng mi chi du bian huan
+重新關聯名稱	chong xin guan lian ming cheng
+抽象類或方法	chou xiang lei huo fang fa
+傳給函式的值	chuan gei han shi de zhi
+創建標題邊框	chuang jian biao ti bian kuang
+窗口透明載入	chuang kou tou ming zai ru
+窗口狀態控制	chuang kou zhuang tai kong zhi
+窗體初始位置	chuang ti chu shi wei zhi
+代碼自動提示	dai ma zi dong ti shi
+單精度浮點型	dan jing du fu dian xing
+當前對象引用	dang qian dui xiang yin yong
+當前進程句柄	dang qian jin cheng ju bing
+遞歸神經網絡	di gui shen jing wang luo
+動態參數編碼	dong tai can shu bian ma
+動態存儲分配	dong tai cun chu fen pei
+獨立成分分析	du li cheng fen fen xi
+讀文本型內存	du wen ben xing nei cun
+讀整數型內存	du zheng shu xing nei cun
+多目標最優化	duo mu biao zui you hua
+多元線性迴歸	duo yuan xian xing hui gui
+訪問控制列表	fang wen kong zhi lie biao
+防禦惡意代碼	fang yu e yi dai ma
+非負矩陣分解	fei fu ju zhen fen jie
+馮諾伊曼架構	feng nuo yi man jia gou
+符號編碼基因	fu hao bian ma ji yin
+父類對象引用	fu lei dui xiang yin yong
+高斯混合模型	gao si hun he mo xing
+公共的保護的	gong gong de bao hu de
+貢獻及影響力	gong xian ji ying xiang li
+工作原理編輯	gong zuo yuan li bian ji
+關閉進程句柄	guan bi jin cheng ju bing
+混合遺傳算法	hun he yi chuan suan fa
+獲得動作命令	huo de dong zuo ming ling
+獲得選中的值	huo de xuan zhong de zhi
+基本數據結構	ji ben shu ju jie gou
+基本遺傳算法	ji ben yi chuan suan fa
+基本語法結構	ji ben yu fa jie gou
+繼承父類成員	ji cheng fu lei cheng yuan
+集成開發環境	ji cheng kai fa huan jing
+集合框架體系	ji he kuang jia ti xi
+技術應用編輯	ji shu ying yong bian ji
+簡易日期格式	jian yi ri qi ge shi
+截斷尺度變換	jie duan chi du bian huan
+卷積神經網絡	juan ji shen jing wang luo
+凌亂遺傳算法	ling luan yi chuan suan fa
+枚舉搜索算法	mei ju sou suo suan fa
+面向對象特徵	mian xiang dui xiang te zheng
+命名實體識別	ming ming shi ti shi bie
+模擬退火算法	mo ni tui huo suan fa
+默認的表模型	mo ren de biao mo xing
+模式定義長度	mo shi ding yi chang du
+爬山搜索算法	pa shan sou suo suan fa
+前饋神經網絡	qian kui shen jing wang luo
+潛在語義分析	qian zai yu yi fen xi
+去除窗體邊框	qu chu chuang ti bian kuang
+取磁盤總空間	qu ci pan zong kong jian
+取地址操作符	qu di zhi cao zuo fu
+人工神經網絡	ren gong shen jing wang luo
+軟件測試技術	ruan jian ce shi ji shu
+軟件設計方法	ruan jian she ji fang fa
+軟件生命週期	ruan jian sheng ming zhou qi
+設置背景顏色	she zhi bei jing yan se
+設置程序圖標	she zhi cheng xu tu biao
+設置畫筆顏色	she zhi hua bi yan se
+深度神經網絡	shen du shen jing wang luo
+深度信念網絡	shen du xin nian wang luo
+神經機器翻譯	shen jing ji qi fan yi
+生成對抗網絡	sheng cheng dui kang wang luo
+生成隨機顏色	sheng cheng sui ji yan se
+釋放鼠標事件	shi fang shu biao shi jian
+十六進制地址	shi liu jin zhi di zhi
+手動控制模式	shou dong kong zhi mo shi
+鼠標單擊事件	shu biao dan ji shi jian
+鼠標離開事件	shu biao li kai shi jian
+鼠標移入事件	shu biao yi ru shi jian
+輸出字節文本	shu chu zi jie wen ben
+雙精度浮點型	shuang jing du fu dian xing
+隨機森林算法	sui ji sen lin suan fa
+隨機搜索算法	sui ji sou suo suan fa
+隨機梯度下降	sui ji ti du xia jiang
+隨機遊走排序	sui ji you zou pai xu
+梯度爆炸問題	ti du bao zha wen ti
+梯度消失問題	ti du xiao shi wen ti
+提升進程權限	ti sheng jin cheng quan xian
+添加一條記錄	tian jia yi tiao ji lu
+條件變量風範	tiao jian bian liang feng fan
+統一建模語言	tong yi jian mo yu yan
+通用人工智能	tong yong ren gong zhi neng
+通用指令代碼	tong yong zhi ling dai ma
+圖形處理單元	tu xing chu li dan yuan
+脫氧核糖核酸	tuo yang he tang he suan
+網絡通信編程	wang luo tong xin bian cheng
+微軟基礎類庫	wei ruan ji chu lei ku
+無參構造函數	wu can gou zao han shu
+無用單元收集	wu yong dan yuan shou ji
+現代操作系統	xian dai cao zuo xi tong
+線性尺度變換	xian xing chi du bian huan
+線性修正單元	xian xing xiu zheng dan yuan
+線性修正函數	xian xing xiu zheng han shu
+寫文本型內存	xie wen ben xing nei cun
+寫整數型內存	xie zheng shu xing nei cun
+寫字節集內存	xie zi jie ji nei cun
+需掌握的單詞	xu zhang wo de dan ci
+循環神經網絡	xun huan shen jing wang luo
+一個條件語句	yi ge tiao jian yu ju
+一個循環類型	yi ge xun huan lei xing
+一種抽象類型	yi zhong chou xiang lei xing
+引入加載導入	yin ru jia zai dao ru
+硬件體系結構	ying jian ti xi jie gou
+應用程式框架	ying yong cheng shi kuang jia
+應用程序接口	ying yong cheng xu jie kou
+應用程序框架	ying yong cheng xu kuang jia
+有選項的面板	you xuan xiang de mian ban
+預防存儲漏泄	yu fang cun chu lou xie
+語言基礎編輯	yu yan ji chu bian ji
+語言評價編輯	yu yan ping jia bian ji
+語言特點編輯	yu yan te dian bian ji
+噪音對比估計	zao yin dui bi gu ji
+張量處理單元	zhang liang chu li dan yuan
+直接上層基類	zhi jie shang ceng ji lei
+植物授粉模型	zhi wu shou fen mo xing
+指針到字節集	zhi zhen dao zi jie ji
+桌面應用程序	zhuo mian ying yong cheng xu
+自動控制模式	zi dong kong zhi mo shi
+自動語音識別	zi dong yu yin shi bie
+自動運行啓動	zi dong yun xing qi dong
+自動運行停止	zi dong yun xing ting zhi
+自然語言處理	zi ran yu yan chu li
+自然語言生成	zi ran yu yan sheng cheng
+資源額度不足	zi yuan e du bu zu
+組件對象模式	zu jian dui xiang mo shi
+組件對象模型	zu jian dui xiang mo xing
+最小欺騙問題	zui xiao qi pian wen ti
+最小最大博弈	zui xiao zui da bo yi
+包含類的一個包	bao han lei de yi ge bao
+比較兩個字符串	bi jiao liang ge zi fu chuan
+標準型並行方法	biao zhun xing bing xing fang fa
+超文本傳輸協議	chao wen ben chuan shu xie yi
+抽象窗口工具集	chou xiang chuang kou gong ju ji
+多媒體技術應用	duo mei ti ji shu ying yong
+二進制編碼基因	er jin zhi bian ma ji yin
+返回字符串長度	fan hui zi fu chuan chang du
+訪問控制修飾符	fang wen kong zhi xiu shi fu
+分解型並行算法	fen jie xing bing xing suan fa
+分配新的類實例	fen pei xin de lei shi li
+浮點數編碼基因	fu dian shu bian ma ji yin
+高頻交易的空間	gao pin jiao yi de kong jian
+公共語言運行庫	gong gong yu yan yun xing ku
+關閉按扭起作用	guan bi an niu qi zuo yong
+核糖核酸穩健性	he tang he suan wen jian xing
+獲得當前的行號	huo de dang qian de hang hao
+獲得文本域內容	huo de wen ben yu nei rong
+技術可行性分析	ji shu ke xing xing fen xi
+鍵盤事件右箭頭	jian pan shi jian you jian tou
+巨並行遺傳算法	ju bing xing yi chuan suan fa
+可擴展開發平臺	ke kuo zhan kai fa ping tai
+控制數據庫常用	kong zhi shu ju ku chang yong
+粒子羣優化算法	li zi qun you hua suan fa
+量子化神經網絡	liang zi hua shen jing wang luo
+期望值選擇模型	qi wang zhi xuan ze mo xing
+強行聊天被選擇	qiang xing liao tian bei xuan ze
+取磁盤剩餘空間	qu ci pan sheng yu kong jian
+全編譯性語言快	quan bian yi xing yu yan kuai
+確定式採樣選擇	que ding shi cai yang xuan ze
+羣體平均適應度	qun ti ping jun shi ying du
+人工智能研究所	ren gong zhi neng yan jiu suo
+人工智能與識別	ren gong zhi neng yu shi bie
+軟件開發工具包	ruan jian kai fa gong ju bao
+設置文本域內容	she zhi wen ben yu nei rong
+適應度尺度變換	shi ying du chi du bian huan
+受限玻爾茲曼機	shou xian bo er zi man ji
+數據庫操縱對象	shu ju ku cao zong dui xiang
+數據庫技術研究	shu ju ku ji shu yan jiu
+數據庫連接對象	shu ju ku lian jie dui xiang
+雙向長短期記憶	shuang xiang chang duan qi ji yi
+添加撤銷監聽器	tian jia che xiao jian ting qi
+透明窗口的句柄	tou ming chuang kou de ju bing
+無回放隨機選擇	wu hui fang sui ji xuan ze
+無回放餘數隨機	wu hui fang yu shu sui ji
+無限多開被選擇	wu xian duo kai bei xuan ze
+下拉列表監聽器	xia la lie biao jian ting qi
+選擇重排序算子	xuan ze zhong pai xu suan zi
+隱狄利克雷分佈	yin di li ke lei fen bu
+隱馬爾可夫模型	yin ma er ke fu mo xing
+應用程序服務器	ying yong cheng xu fu wu qi
+早晨好畫字符串	zao chen hao hua zi fu chuan
+直接下層派生類	zhi jie xia ceng pai sheng lei
+最底層的派生類	zui di ceng de pai sheng lei
+捕獲異常的代碼塊	bu huo yi chang de dai ma kuai
+處理輸入輸出的類	chu li shu ru shu chu de lei
+窗口在最頂端內填	chuang kou zai zui ding duan nei tian
+單精度浮點數類型	dan jing du fu dian shu lei xing
+單指令流多數據流	dan zhi ling liu duo shu ju liu
+多指令流多數據流	duo zhi ling liu duo shu ju liu
+分佈隨機近鄰嵌入	fen bu sui ji jin lin qian ru
+更新配置文件地址	geng xin pei zhi wen jian di zhi
+更新文件下載目錄	geng xin wen jian xia zai mu lu
+谷歌神經機器翻譯	gu ge shen jing ji qi fan yi
+國際機器學習大會	guo ji ji qi xue xi da hui
+獲得所敲擊的鍵盤	huo de suo qiao ji de jian pan
+即插即用生成網絡	ji cha ji yong sheng cheng wang luo
+可微分神經計算機	ke wei fen shen jing ji suan ji
+類沒有被找到異常	lei mei you bei zhao dao yi chang
+頻繁分配釋放資源	pin fan fen pei shi fang zi yuan
+樸素貝葉斯分類器	pu su bei ye si fen lei qi
+啓動窗口創建完畢	qi dong chuang kou chuang jian wan bi
+確定點鼠標擊右鍵	que ding dian shu biao ji you jian
+數據庫結果集對象	shu ju ku jie guo ji dui xiang
+順序存儲的有序表	shun xu cun chu de you xu biao
+隨機聯賽選擇模型	sui ji lian sai xuan ze mo xing
+臺獨立與可移植性	tai du li yu ke yi zhi xing
+下拉列表選擇事件	xia la lie biao xuan ze shi jian
+遺傳算法欺騙問題	yi chuan suan fa qi pian wen ti
+隱含狄利克雷分佈	yin han di li ke lei fen bu
+用戶輸入的註冊碼	yong hu shu ru de zhu ce ma
+支持網絡功能的類	zhi chi wang luo gong neng de lei
+標誌非永久性的數據	biao zhi fei yong jiu xing de shu ju
+程序運行的標準環境	cheng xu yun xing de biao zhun huan jing
+重新添加下拉框內容	chong xin tian jia xia la kuang nei rong
+粗粒度並行遺傳算法	cu li du bing xing yi chuan suan fa
+單選按鈕菜單工具欄	dan xuan an niu cai dan gong ju lan
+多選按鈕菜單工具欄	duo xuan an niu cai dan gong ju lan
+獲得窗體的內部窗格	huo de chuang ti de nei bu chuang ge
+加載數據庫驅動程序	jia zai shu ju ku qu dong cheng xu
+解除分配的有害錯誤	jie chu fen pei de you hai cuo wu
+內部測試的組織實施	nei bu ce shi de zu zhi shi shi
+通過時間的反向傳播	tong guo shi jian de fan xiang chuan bo
+文本域單行的文本框	wen ben yu dan xing de wen ben kuang
+細粒度並行遺傳算法	xi li du bing xing yi chuan suan fa
+標記方法不返回任何值	biao ji fang fa bu fan hui ren he zhi
+程序編寫時常用的單詞	cheng xu bian xie shi chang yong de dan ci
+定義一個類實現的接口	ding yi yi ge lei shi xian de jie kou
+分佈式因特網應用程序	fen bu shi yin te wang ying yong cheng xu
+設置控件是否可用內填	she zhi kong jian shi fou ke yong nei tian
+設置視窗是否隱藏內填	she zhi shi chuang shi fou yin cang nei tian
+設置是否能最大化內填	she zhi shi fou neng zui da hua nei tian
+深度卷積生成對抗網絡	shen du juan ji sheng cheng dui kang wang luo
+英文類型默認值封裝類	ying wen lei xing mo ren zhi feng zhuang lei
+遊標移動到第一條記錄	you biao yi dong dao di yi tiao ji lu
+語言基礎參考資料來源	yu yan ji chu can kao zi liao lai yuan
+獲得當前正在運行的線程	huo de dang qian zheng zai yun xing de xian cheng
+獲得下拉框所選擇的內容	huo de xia la kuang suo xuan ze de nei rong
+萬普尼克澤範蘭傑斯理論	wan pu ni ke ze fan lan jie si li lun
+遊標移動到最後一條記錄	you biao yi dong dao zui hou yi tiao ji lu
+查找指定下標所對應的字符	cha zhao zhi ding xia biao suo dui ying de zi fu
+字符串對象也是一種數據類型	zi fu chuan dui xiang ye shi yi zhong shu ju lei xing

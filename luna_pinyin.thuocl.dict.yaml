@@ -1,7 +1,19 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# 清華大學NLP分詞，排序，去重
+# 清華大學NLP分詞
+# 詞庫包括以下內容：
+#   + THUOCL_IT.txt
+#   + THUOCL_animal.txt
+#   + THUOCL_caijing.txt
+#   + THUOCL_car.txt
+#   + THUOCL_chengyu.txt
+#   + THUOCL_diming.txt
+#   + THUOCL_food.txt
+#   + THUOCL_law.txt
+#   + THUOCL_lishimingren.txt
+#   + THUOCL_medical.txt
+#   + THUOCL_poem.txt
 #
 # 部署位置：
 # ~/.config/ibus/rime  (Linux)
