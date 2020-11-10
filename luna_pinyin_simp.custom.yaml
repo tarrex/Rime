@@ -54,6 +54,7 @@ patch:
 
   translator:
     dictionary: luna_pinyin.extended
+    prism: luna_pinyin_simp
     preedit_format:
       - xform/([nl])v/$1ü/
       - xform/([nl])ue/$1üe/
@@ -61,7 +62,3 @@ patch:
 
   punctuator:
     import_preset: symbols.custom
-
-  recognizer:
-    patterns:
-      punct: "^/([a-z]+|[0-9]0?)$"

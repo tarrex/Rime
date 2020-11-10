@@ -8,8 +8,6 @@ patch:
     - name: simplification
       reset: 1
       states: [ 漢字, 汉字 ]
-    - name: ascii_punct
-      states: [ 。，, ．， ]
     - name: emoji_suggestion
       reset: 1
       states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
@@ -54,6 +52,7 @@ patch:
 
   translator:
     dictionary: luna_pinyin.extended
+    prism: luna_pinyin_fluency
     preedit_format:
       - xform/([nl])v/$1ü/
       - xform/([nl])ue/$1üe/
@@ -61,7 +60,3 @@ patch:
 
   punctuator:
     import_preset: symbols.custom
-
-  recognizer:
-    patterns:
-      punct: "^/([a-z]+|[0-9]0?)$"
