@@ -1,0 +1,70 @@
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      reset: 1
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+    - name: emoji_suggestion
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+
+  schema/dependencies/@next: easy_en
+  engine/translators/@next: table_translator@easy_en
+  easy_en:
+    __include: easy_en.schema:/translator
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: -2
+
+  engine/filters/@before 0:
+    simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: all
+
+  translator:
+    dictionary: luna_pinyin.extended
+    prism: double_pinyin_flypy
+    preedit_format:
+      - xform/([bpmfdtnljqx])n/$1iao/
+      - xform/(\w)g/$1eng/
+      - xform/(\w)q/$1iu/
+      - xform/(\w)w/$1ei/
+      - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+      - xform/(\w)t/$1ve/
+      - xform/(\w)y/$1un/
+      - xform/([dtnlgkhvuirzcs])o/$1uo/
+      - xform/(\w)p/$1ie/
+      - xform/([jqx])s/$1iong/
+      - xform/(\w)s/$1ong/
+      - xform/(\w)d/$1ai/
+      - xform/(\w)f/$1en/
+      - xform/(\w)h/$1ang/
+      - xform/(\w)j/$1an/
+      - xform/([gkhvuirzcs])k/$1uai/
+      - xform/(\w)k/$1ing/
+      - xform/([jqxnl])l/$1iang/
+      - xform/(\w)l/$1uang/
+      - xform/(\w)z/$1ou/
+      - xform/([gkhvuirzcs])x/$1ua/
+      - xform/(\w)x/$1ia/
+      - xform/(\w)c/$1ao/
+      - xform/([dtgkhvuirzcs])v/$1ui/
+      - xform/(\w)b/$1in/
+      - xform/(\w)m/$1ian/
+      - xform/([aoe])\1(\w)/$1$2/
+      - "xform/(^|[ '])v/$1zh/"
+      - "xform/(^|[ '])i/$1ch/"
+      - "xform/(^|[ '])u/$1sh/"
+      - xform/([jqxy])v/$1u/
+      - xform/([nl])v/$1ü/
+
+  punctuator:
+    import_preset: symbols.custom
