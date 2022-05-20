@@ -42,6 +42,10 @@ patch:
       ascii_mode: true
     com.eusoft.eudic:
       ascii_mode: true
+    com.github.wez.wezterm:
+      ascii_mode: true
+    io.alacritty:
+      ascii_mode: true
 
   style:
     color_scheme: tarrex
