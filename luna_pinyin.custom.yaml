@@ -49,8 +49,8 @@ patch:
     # - derive/^n/l/                        # n => l
     # - derive/^l/n/                        # l => n
     - derive/^([bpmf])eng$/$1ong/         # meng = mong, ...
-    - derive/([ei])n$/$1ng/               # en => eng, in => ing
-    - derive/([ei])ng$/$1n/               # eng => en, ing => in
+    # - derive/([ei])n$/$1ng/               # en => eng, in => ing
+    # - derive/([ei])ng$/$1n/               # eng => en, ing => in
 
   translator:
     dictionary: luna_pinyin.extended
