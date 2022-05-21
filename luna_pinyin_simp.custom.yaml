@@ -1,34 +1,4 @@
 patch:
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: [ 中文, 西文 ]
-    - name: full_shape
-      states: [ 半角, 全角 ]
-    - name: zh_simp
-      reset: 1
-      states: [ 漢字, 汉字 ]
-    - name: ascii_punct
-      states: [ 。，, ．， ]
-    - name: emoji_suggestion
-      reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-
-  schema/dependencies/@next: easy_en
-  engine/translators/@next: table_translator@easy_en
-  easy_en:
-    __include: easy_en.schema:/translator
-    enable_completion: true
-    enable_sentence: false
-    initial_quality: -2
-
-  engine/filters/@before 0:
-    simplifier@emoji_suggestion
-  emoji_suggestion:
-    opencc_config: emoji.json
-    option_name: emoji_suggestion
-    tips: all
-
   speller/algebra:
     - erase/^xx$/                         # 第一行保留
     - abbrev/^([a-z]).+$/$1/              # 簡拼（首字母）
@@ -62,3 +32,6 @@ patch:
 
   punctuator:
     import_preset: symbols.custom
+
+  __include: easy_en:/patch
+  __include: emoji_suggestion:/patch
