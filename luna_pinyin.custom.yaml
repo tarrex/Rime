@@ -1,4 +1,7 @@
 patch:
+  engine/translators/@next: lua_translator@datetime_translator
+  engine/processors/@before 0': lua_processor@select_character_processor
+
   speller/algebra:
     __patch:
       - pinyin:/abbreviation
