@@ -1,0 +1,98 @@
+# Rime table
+# coding: utf-8
+#
+
+哈哈	hh
+哈哈哈	hhh
+哈哈哈哈	hhhh
+哈哈哈哈哈	hhhhh
+哈哈哈哈哈哈	hhhhhh
+
+屮艸芔茻	cccc
+火炎焱燚	hhhh
+口吕品㗊	kkkk
+人从众𠈌	rrrr
+日昌晶𣊫	rrrr
+水沝淼㵘	ssss
+石砳磊𥗉	ssss
+土圭垚壵	tttt
+又双叒叕	yyyy
+一二三亖	yyyy
+
+Rime	rime
+
+⌘	cmd
+⌃	ctl
+⌥	opt
+⇧	shift
+⌫	backspace
+␣	space
+
+GBK	gbk
+UTF-8	utf
+UTF-16	utf
+
+macOS	macos
+macOS High Sierra	macos
+macOS Mojave	macos
+macOS Sierra	macos
+Mac	mac
+MacBook Pro	mbp
+MacBook	macbook
+iOS	ios
+iPad	ipad
+iPhone	iphone
+iMac	imac
+iTunes	itunes
+iPod	ipod
+iCloud	icloud
+Apple	apple
+Apple ID	appleid
+Mac App Store	mas
+OS X	osx
+
+Linux	linux
+GNU/Linux	linux
+
+HTML	html
+CSS	css
+JavaScript	js
+TypeScript	ts
+jQuery	jquery
+JSON	json
+XML	xml
+
+Golang	golang
+MySQL	mysql
+Objective-C	ojbc
+PHP	php
+Perl	perl
+PostgreSQL	postgresql
+Python	python
+Ruby	ruby
+Rust	rust
+SQL	sql
+Swift	swift
+
+IP	ip
+TCP/IP	tcpip
+UDP/IP	udpip
+TCP	tcp
+UDP	udp
+IPv4	ipv
+IPv6	ipv
+Wi-Fi	wifi
+U盘	upan
+
+Redis	redis
+Nginx	nginx
+Kubernetes	kube
+Docker	docker
+
+WeChat	wechat
+GitHub	github
+IPTV	iptv
+X-Ray	xray
+Xbox One	xbox
+YouTube	youtube
+Dropbox	dropbox
