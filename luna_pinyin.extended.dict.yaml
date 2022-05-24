@@ -8,18 +8,14 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
-  - luna_pinyin.hanyu
-  - luna_pinyin.personal
-  - luna_pinyin.input_method
-  - luna_pinyin.network
-  - luna_pinyin.chat
-  - luna_pinyin.computer
-  - luna_pinyin.thuocl
-  - luna_pinyin.poetry
-  - luna_pinyin.kaomoji
-  - luna_pinyin.extra_hanzi
-  - luna_pinyin.university
-  - luna_pinyin.subway
-  - luna_pinyin.china_area
-  - zhwiki
+  - dict/cn/luna_pinyin.hanyu
+  - dict/cn/luna_pinyin.poetry
+  - dict/cn/luna_pinyin.extra_hanzi
+  - dict/cn/input_method
+  - dict/cn/zhwiki
+  - dict/cn/university
+  - dict/cn/china_area
+  - dict/cn/subway
+  - dict/cn/thuocl
+  - dict/cn/kaomoji
 ...
