@@ -13,7 +13,6 @@ import_tables:
   - dict/cn/luna_pinyin.extra_hanzi
   - dict/cn/input_method
   - dict/cn/zhwiki
-  - dict/cn/university
   - dict/cn/china_area
   - dict/cn/subway
   - dict/cn/thuocl
