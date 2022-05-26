@@ -11,6 +11,9 @@ local function translator(input, seg)
     local cand = Candidate('date', seg.start, seg._end, os.date('%Y.%m.%d'), '')
     cand.quality = 100
     yield(cand)
+    local cand = Candidate('date', seg.start, seg._end, os.date('%Y%m%d'), '')
+    cand.quality = 100
+    yield(cand)
     local cand = Candidate('date', seg.start, seg._end, os.date('%Y年%m月%d日'), '')
     cand.quality = 100
     yield(cand)
@@ -22,6 +25,9 @@ local function translator(input, seg)
     cand.quality = 100
     yield(cand)
     local cand = Candidate('time', seg.start, seg._end, os.date('%H:%M:%S'), '')
+    cand.quality = 100
+    yield(cand)
+    local cand = Candidate('time', seg.start, seg._end, os.date('%H%M%S'), '')
     cand.quality = 100
     yield(cand)
   end
