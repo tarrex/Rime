@@ -1,6 +1,6 @@
 patch:
-  engine/translators/@next: lua_translator@datetime_translator
-  engine/processors/@before 0': lua_processor@select_character_processor
+  engine/translators/@before 0: lua_translator@datetime_translator
+  engine/processors/@before 0: lua_processor@select_character_processor
 
   speller/algebra:
     __patch:
