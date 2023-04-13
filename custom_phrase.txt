@@ -36,11 +36,32 @@
 Rime	rime
 
 ⌘	cmd
-⌃	ctl
-⌥	opt
+⌘	command
 ⇧	shift
-⌫	backspace
+⌥	opt
+⌥	option
+⌥	alt
+⌃	ctrl
+⌃	control
+⇪	caps
+⇪	capslock
 ␣	space
+⎋	esc
+⏏	eject
+⌫	back
+⌫	backspace
+⌦	del
+⌦	delete
+⏎	enter
+
+°	du
+°C	ssd
+°C	sheshidu
+°F	hsd
+°F	huashidu
+
+✔	duihao
+✖	chahao
 
 GBK	gbk
 UTF-8	utf

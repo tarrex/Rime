@@ -1,0 +1,13 @@
+patch:
+  switches/@next:
+    name: emoji
+    reset: 1
+    states: [ 🌚, 🌝 ]
+  
+  engine/filters/@next: simplifier@emoji
+
+  emoji:
+    opencc_config: emoji.json
+    option_name: emoji
+    tips: none
+    inherit_comment: false

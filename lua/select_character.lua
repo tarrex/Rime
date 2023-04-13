@@ -1,5 +1,14 @@
--- Reference: https://github.com/BlindingDark/rime-lua-select-character
--- http://lua-users.org/lists/lua-l/2014-04/msg00590.html
+--[[
+select_character_processor: 以词定字
+
+以词定字可以让你在输入一个词组后，选取这个词组的开头或结尾的一个字直接上屏。
+比如想要打“嫉”这个字，可以先打“嫉妒”再按 `[` 键选择第一个字，这样在输入一些生僻字的时候会有所帮助。
+
+Reference:
+  https://github.com/BlindingDark/rime-lua-select-character
+  http://lua-users.org/lists/lua-l/2014-04/msg00590.html
+--]]
+
 local function utf8_sub(s, i, j)
   i = i or 1
   j = j or -1
@@ -13,7 +22,7 @@ local function utf8_sub(s, i, j)
     if j < 0 then j = 1 elseif j > n then j = n end
   end
 
-  if j < i then return "" end
+  if j < i then return '' end
 
   i = utf8.offset(s, i)
   j = utf8.offset(s, j + 1)
@@ -23,7 +32,7 @@ local function utf8_sub(s, i, j)
   elseif i then
     return s:sub(i)
   else
-    return ""
+    return ''
   end
 end
 
@@ -35,7 +44,7 @@ local function last_character(s)
   return utf8_sub(s, -1, -1)
 end
 
-local function select_character(key, env)
+local function select_character_processor(key, env)
   local engine = env.engine
   local context = engine.context
   local commit_text = context:get_commit_text()
@@ -43,14 +52,14 @@ local function select_character(key, env)
   local first_key = config:get_string('key_binder/select_first_character') or 'bracketleft'
   local last_key = config:get_string('key_binder/select_last_character') or 'bracketright'
 
-  if (key:repr() == first_key and commit_text ~= "") then
+  if (key:repr() == first_key and commit_text ~= '') then
     engine:commit_text(first_character(commit_text))
     context:clear()
 
     return 1 -- kAccepted
   end
 
-  if (key:repr() == last_key and commit_text ~= "") then
+  if (key:repr() == last_key and commit_text ~= '') then
     engine:commit_text(last_character(commit_text))
     context:clear()
 
@@ -60,4 +69,4 @@ local function select_character(key, env)
   return 2 -- kNoop
 end
 
-return select_character
+return select_character_processor

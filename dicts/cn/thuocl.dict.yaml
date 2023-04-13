@@ -1,0 +1,23 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 清華大學NLP分詞 http://thuocl.thunlp.org/
+#
+
+---
+name: thuocl
+version: "1"
+sort: by_weight
+import_tables:
+  - thuocl/THUOCL_IT
+  - thuocl/THUOCL_caijing
+  - thuocl/THUOCL_chengyu
+  - thuocl/THUOCL_food
+  - thuocl/THUOCL_lishimingren
+  - thuocl/THUOCL_poem
+  - thuocl/THUOCL_animal
+  - thuocl/THUOCL_car
+  - thuocl/THUOCL_diming
+  - thuocl/THUOCL_law
+  - thuocl/THUOCL_medical
+...

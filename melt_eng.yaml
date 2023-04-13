@@ -1,0 +1,11 @@
+patch:
+  schema/dependencies/@next: melt_eng
+  engine/translators/@next: table_translator@melt_eng
+  melt_eng:
+    dictionary: melt_eng      # 翻译器词库
+    initial_quality: -1       # 翻译器结果优先级
+    enable_user_dict: false   # 是否开启用户词典〔用户词典记录动态字词频，用户词〕
+    enable_sentence: false    # 是否开启自动造句
+    enable_completion: true   # 提前显示尚未输入完整码的字
+    comment_format:           # 自定义提示码
+      - xform/.*//            # 清空提示码

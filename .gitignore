@@ -1,5 +1,6 @@
 build
 luna_pinyin.userdb
 easy_en.userdb
+melt_eng.userdb
 .DS_Store
 .vscode

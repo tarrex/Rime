@@ -13,5 +13,7 @@ select_character_processor = require('select_character')
 
 -- Translators
 datetime_translator = require('datetime')
+unicode_translator = require('unicode')
 
 -- Filters
+long_word_filter = require('long_word')

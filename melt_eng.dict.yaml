@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: melt_eng
+version: "0.1"
+sort: by_weight
+import_tables:
+  - dicts/en/coca20000
+...

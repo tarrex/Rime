@@ -1,80 +1,135 @@
 patch:
-  show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
-
-  app_options:                                  # 默认英文模式的软件
-    com.apple.dt.Xcode:
-      ascii_mode: true
-    com.runningwithcrayons.Alfred:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-    com.googlecode.iterm2:
-      ascii_mode: true
-    com.apple.finder:
-      ascii_mode: true
-    com.sublimetext.3:
-      ascii_mode: true
-    com.apple.calculator:
-      ascii_mode: true
-    com.apple.launchpad.launcher:
-      ascii_mode: true
-    com.apple.systempreferences:
-      ascii_mode: true
-    com.apple.ActivityMonitor:
-      ascii_mode: true
-    com.apple.keychainaccess:
-      ascii_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.jetbrains.intellij:
-      ascii_mode: true
-    com.jetbrains.datagrip:
-      ascii_mode: true
-    com.jetbrains.pycharm:
-      ascii_mode: true
-    io.nteract.nteract:
-      ascii_mode: true
-    com.sequelpro.SequelPro:
-      ascii_mode: true
-    io.termix.client:
-      ascii_mode: true
-    com.kapeli.dashdoc:
-      ascii_mode: true
-    com.eusoft.eudic:
+  app_options:
+    com.sublimetext.4:
       ascii_mode: true
     com.github.wez.wezterm:
       ascii_mode: true
-    io.alacritty:
+    com.raycast.macos:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      ascii_mode: true
+    abnerworks.Typora:
+      ascii_mode: true
+    md.obsidian:
+      ascii_mode: true
+    com.electron.logseq:
       ascii_mode: true
 
   style:
-    color_scheme: tarrex
+    color_scheme: wechat_light
+    color_schema_dark: wechat_dark
+
+    candidate_list_layout: stacked # 候选排布：层叠 stacked | 行 linear
+    text_orientation: horizontal   # 行文向： 横 horizontal | 纵 vertical
+    inline_preedit: true           # 拼音位于： 候选框 false | 行内 true
+
+    corner_radius: 5               # 外边框 圆角半径
+    hilited_corner_radius: 5       # 选中框 圆角半径
+    border_height: 1               # 外边框 高
+    border_width: 1                # 外边框 宽
+    line_spacing: 5                # 行间距
+    spacing: 10                    # 拼音与候选项之间的距离 （inline_preedit: false）
+
+    alpha: 1                       # 透明度，0~1
+    shadow_size: 0                 # 阴影大小
+    # translucency: false            # 磨砂： false | true
+    # mutual_exclusive: false        # 色不叠加： false | true
+    # surrounding_extra_expansion: 0 # 候选项背景相对大小？
+
+    candidate_format: "%c\u2005%@\u2005"  # 编号 %c 和候选词 %@ 前后的空间（1/6 em 空格 U+2005）
+
+    base_offset: 0                                                       # 字基高
+    font_face: "PingFangSC-Regular,LXGWWenKai-Regular,HanaMinB"          # 候选字字体
+    font_point: 16                                                       # 候选字大小
+    label_font_face: "PingFangSC-Regular"                                # 候选字编号字体
+    label_font_point: 13                                                 # 候选字编号大小
+    comment_font_face: "PingFangSC-Regular,LXGWWenKai-Regular,HanaMinB"  # 提示文字字体
+    comment_font_point: 16                            # 提示文字大小
 
   preset_color_schemes:
     tarrex:
       name: tarrex
-      author: tarrex <tarrexchen@gmail.com>
-      horizontal: false                        # 水平排列
-      inline_preedit: true                     # 单行显示，false双行显示
-      candidate_format: "%c\u2005%@"           # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      corner_radius: 5                         # 候选条圆角
-      hilited_corner_radius: 3                 # 高亮圆角
-      border_height: 6                         # 窗口边界高度，大于圆角半径才生效
-      border_width: 6                          # 窗口边界宽度，大于圆角半径才生效
-      border_color_width: 0
-      font_face: "PingFangSC-Regular,HanaMinB" # 候选词字体
-      font_point: 20                           # 候选字词大小
-      label_font_point: 14                     # 候选编号大小
+      text_color: 0xDEDDDD                    # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0x4B4B4B                    # 候选条背景色
+      label_color: 0x888785                   # 预选栏编号颜色
+      border_color: 0x4B4B4B                  # 边框色
+      candidate_text_color: 0xFFFFFF          # 预选项文字颜色
+      comment_text_color: 0xDEDDDD            # 拼音等提示文字颜色
+      hilited_text_color: 0xDEDDDD            # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0x252320            # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0xFFE696  # 第一候选项文字颜色
+      hilited_candidate_back_color: 0x4B4B4B  # 第一候选项背景背景色
+      hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
+      hilited_comment_text_color: 0xDEDDDD    # 注解文字高亮
 
-      text_color: 0xdedddd                     # 拼音行文字颜色，24位色值，16进制，BGR顺序
-      back_color: 0x4b4b4b                     # 候选条背景色
-      label_color: 0x888785                    # 预选栏编号颜色
-      border_color: 0x4b4b4b                   # 边框色
-      candidate_text_color: 0xffffff           # 预选项文字颜色
-      hilited_text_color: 0xdedddd             # 高亮拼音 (需要开启内嵌编码)
-      hilited_back_color: 0x252320             # 高亮拼音 (需要开启内嵌编码)
-      hilited_candidate_text_color: 0xFFE696   # 第一候选项文字颜色
-      hilited_candidate_back_color: 0x4b4b4b   # 第一候选项背景背景色
-      hilited_candidate_label_color: 0xffffff  # 第一候选项编号颜色
-      comment_text_color: 0xdedddd             # 拼音等提示文字颜色
-      hilited_comment_text_color: 0xdedddd     # 注解文字高亮
+    macos_light:
+      name: MacOS 浅色 ／ macOS Light
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      text_color: 0x424242                    # 拼音颜色 （inline_preedit: false）
+      back_color: 0xFFFFFF                    # 底色
+      label_color: 0x999999                   # 序号颜色
+      border_color: 0xFFFFFF                  # 外边框颜色
+      candidate_text_color: 0x3C3C3C          # 文字颜色
+      candidate_back_color: 0xE9E9EA          # 候选项底色
+      comment_text_color: 0x999999            # 注颜色
+      hilited_text_color: 0xFFFFFF            # 选中拼音颜色 （inline_preedit: false）
+      hilited_back_color: 0xD75A00            # 选中拼音底色 （inline_preedit: false）
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
+      hilited_candidate_back_color: 0xD75A00  # 选中底色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
+      hilited_comment_text_color: 0xFFFFFF    # 选中注颜色
+      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
+
+    macos_dark:
+      name: MacOS 深色 ／ macOS Dark
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      text_color: 0x808080                    # 拼音颜色 （inline_preedit: false）
+      back_color: 0x1F1E2D                    # 底色
+      label_color: 0x999999                   # 序号颜色
+      border_color: 0x050505                  # 外边框颜色
+      candidate_text_color: 0xE9E9EA          # 文字颜色
+      candidate_back_color: 0xE9E9EA          # 候选项底色
+      comment_text_color: 0x999999            # 注颜色
+      hilited_text_color: 0xFFFFFF            # 选中拼音颜色 （inline_preedit: false）
+      hilited_back_color: 0xD75A00            # 选中拼音底色 （inline_preedit: false）
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
+      hilited_candidate_back_color: 0xD75A00  # 选中底色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
+      hilited_comment_text_color: 0x999999    # 选中注颜色
+      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
+
+    wechat_light:
+      name: 微信浅色 / Wechat Light
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      text_color: 0x424242                    # 拼音颜色 （inline_preedit: false）
+      back_color: 0xFFFFFF                    # 底色
+      label_color: 0x999999                   # 序号颜色
+      border_color: 0xFFFFFF                  # 外边框颜色
+      candidate_text_color: 0x3C3C3C          # 文字颜色
+      candidate_back_color: 0xE9E9EA          # 候选项底色
+      comment_text_color: 0x999999            # 注颜色
+      hilited_text_color: 0x999999            # 选中拼音颜色 （inline_preedit: false）
+      hilited_back_color: 0x79AF22            # 选中拼音底色 （inline_preedit: false）
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
+      hilited_candidate_back_color: 0x79AF22  # 选中底色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
+      hilited_comment_text_color: 0x999999    # 选中注颜色
+      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）
+
+    wechat_dark:
+      name: 微信深色 ／ Wechat Dark
+      color_space: srgb                       # 色彩空间： srgb | display_p3
+      text_color: 0xBBBBBB                    # 拼音颜色 （inline_preedit: false）
+      back_color: 0x151515                    # 底色
+      label_color: 0x999999                   # 序号颜色
+      border_color: 0x292929                  # 外边框颜色
+      candidate_text_color: 0xBBBBBB          # 文字颜色
+      candidate_back_color: 0xBBBBBB          # 候选项底色
+      comment_text_color: 0x999999            # 注颜色
+      hilited_text_color: 0x999999            # 选中拼音颜色 （inline_preedit: false）
+      hilited_back_color: 0x79AF22            # 选中拼音底色 （inline_preedit: false）
+      hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
+      hilited_candidate_back_color: 0x79AF22  # 选中底色
+      hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
+      hilited_comment_text_color: 0xFFFFFF    # 选中注颜色
+      # preedit_back_color:                   # 拼音底色 （inline_preedit: false）

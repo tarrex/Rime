@@ -3,19 +3,15 @@
 
 ---
 name: luna_pinyin.extended
-version: "2020.08.26"
+version: "0.1"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
-  - dict/cn/luna_pinyin.hanyu
-  - dict/cn/luna_pinyin.poetry
-  - dict/cn/luna_pinyin.extra_hanzi
-  - dict/cn/luna_pinyin.cn_en
-  - dict/cn/input_method
-  - dict/cn/zhwiki
-  - dict/cn/china_area
-  - dict/cn/subway
-  - dict/cn/thuocl
-  - dict/cn/kaomoji
+  - dicts/cn/luna_pinyin.poetry
+  - dicts/cn/input_method
+  - dicts/cn/zhwiki
+  - dicts/cn/subway
+  - dicts/cn/thuocl
+  - dicts/cn/kaomoji
 ...
