@@ -6,7 +6,8 @@ Reference：
 --]]
 
 local function unicode_translator(input, seg, env)
-  local ucodestr = seg:has_tag('unicode') and input:match('U(%x+)')
+  -- local ucodestr = seg:has_tag('unicode') and input:match('U(%x+)')
+  local ucodestr = input:match('U(%x+)')
   if ucodestr and #ucodestr > 1 then
     local code = tonumber(ucodestr, 16)
     local text = utf8.char(code)

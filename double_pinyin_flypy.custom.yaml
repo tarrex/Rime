@@ -14,6 +14,7 @@ patch:
   engine/processors/@before 0: lua_processor@select_character_processor
   engine/translators/@before 0: lua_translator@datetime_translator
   engine/translators/@after 0: lua_translator@unicode_translator
+  engine/translators/@after 1: lua_translator@number_translator
   engine/filters/@before 0: lua_filter@long_word_filter
 
   translator:
@@ -23,7 +24,6 @@ patch:
   punctuator/import_preset: symbols
 
   recognizer/patterns/punct: '^/([0-9]0?|[A-Za-z]+)$'
-  recognizer/patterns/unicode: '^U[a-f0-9]+'
 
   __include: melt_eng:/patch
   __include: emoji:/patch
