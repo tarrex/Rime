@@ -73,7 +73,7 @@ macOS Mojave	macos
 macOS Sierra	macos
 Mac	mac
 MacBook Pro	mbp
-MacBook	macbook
+MacBook	mac book
 iOS	ios
 iPad	ipad
 iPhone	iphone
@@ -90,9 +90,11 @@ Linux	linux
 GNU/Linux	linux
 
 HTML	html
+HTML5	html
 CSS	css
-JavaScript	js
-TypeScript	ts
+CSS3	css
+JavaScript	java script
+TypeScript	type script
 jQuery	jquery
 JSON	json
 XML	xml
@@ -110,8 +112,8 @@ SQL	sql
 Swift	swift
 
 IP	ip
-TCP/IP	tcpip
-UDP/IP	udpip
+TCP/IP	tcp ip
+UDP/IP	udp ip
 TCP	tcp
 UDP	udp
 IPv4	ipv

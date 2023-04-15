@@ -17,7 +17,7 @@ patch:
 
   style:
     color_scheme: wechat_light
-    color_schema_dark: wechat_dark
+    color_scheme_dark: wechat_dark
 
     candidate_list_layout: stacked # 候选排布：层叠 stacked | 行 linear
     text_orientation: horizontal   # 行文向： 横 horizontal | 纵 vertical
@@ -30,7 +30,7 @@ patch:
     line_spacing: 5                # 行间距
     spacing: 10                    # 拼音与候选项之间的距离 （inline_preedit: false）
 
-    alpha: 1                       # 透明度，0~1
+    alpha: 0.90                    # 透明度，0~1
     shadow_size: 0                 # 阴影大小
     # translucency: false            # 磨砂： false | true
     # mutual_exclusive: false        # 色不叠加： false | true
@@ -44,7 +44,7 @@ patch:
     label_font_face: "PingFangSC-Regular"                                # 候选字编号字体
     label_font_point: 13                                                 # 候选字编号大小
     comment_font_face: "PingFangSC-Regular,LXGWWenKai-Regular,HanaMinB"  # 提示文字字体
-    comment_font_point: 16                            # 提示文字大小
+    comment_font_point: 16                                               # 提示文字大小
 
   preset_color_schemes:
     tarrex:

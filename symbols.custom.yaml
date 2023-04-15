@@ -1,5 +1,6 @@
 patch:
   punctuator/symbols/+:
-    '/gc' : [√, ✔, ✕, ✖]
+    '/gc' : [ √, ✔, ✕, ✖ ]
     '/mac': [ ⌘, ⇧, ⌥, ⌃, ⇪, ␣, ⎋, ⏏, ⌫, ⌦, ⏎ ]
     '/du': [ °, °C, °F ]
+    '/help': [ fh：符号, dn：电脑, xq：象棋, mj：麻将, sz：色子, pk：扑克, bq：表情, tq：天气, yy：音乐, lx：两性, bg：八卦, bgm：八卦名, lssg：六十四卦, lssgm：六十四卦名, txj：太玄经, tt：天体, xz：星座, xzm：星座名, seg：十二宫, xh：星号, fk：方块, jh：几何, jt：箭头, sx：数学, szq：数字+圈, szh：数字+弧, szd：数字+点, zmq：字母+圈, zmh：字母+弧, fs：分数, szm：苏州码, lm：罗马数字, lm：罗马数字大写, sb：上标, xb：下标, xl：希腊字母, xld：希腊字母大写, ey：俄语, eyd：俄语大写, yf：月份, rq：日期, yr：曜日, sj：时间, tg：天干, dz：地支, gz：干支, jq：节气, dw：单位, hb：货币, jg：结构, pp：偏旁, kx：康熙部首, bh：笔划, bd：标点, bdz：标点补充, py：拼音, pyd：拼音大写, zy：注音, sd：声调, hzq：汉字+圈, hzh：汉字+弧, iro：いろは順, jm：假名, pjm：片假名, jmp：假名+圈, jmbj：假名半角, hw：韩文, hwq：韩文+圈, hwh：韩文+弧, gc：勾叉, mac：苹果键盘, du：度 ]
