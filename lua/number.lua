@@ -83,13 +83,18 @@ local function read_number(conf, n)
 end
 
 local function number_translator(input, seg, env)
-  local numstr = input:match('N(%x+)')
-  if numstr and #numstr > 0 then
-    if tonumber(numstr) ~= nil then
-      for _, conf in ipairs(confs) do
-        local r = read_number(conf, numstr)
-        yield(Candidate('number', seg.start, seg._end, r, conf.comment))
-      end
+  local config = env.engine.schema.config
+  local prefix = config:get_string(env.name_space .. '/prefix') or 'N'
+
+  if string.sub(input, 1, 1) ~= prefix or #input < 2 then
+    return
+  end
+
+  local numstr = string.sub(input, 2)
+  if tonumber(numstr) ~= nil then
+    for _, conf in ipairs(confs) do
+      local r = read_number(conf, numstr)
+      yield(Candidate('number', seg.start, seg._end, r, conf.comment))
     end
   end
 end
