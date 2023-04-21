@@ -1,13 +1,13 @@
-# Rime dictionary		
-# encoding: utf-8		
-#		
-#	COCA 20000 去重排序	
+# Rime dictionary
+# encoding: utf-8
 #
----	
-name: coca20000		
-version: "0.1"		
-sort: by_weight		
-...	
+#	COCA 20000 去重排序
+#
+---
+name: coca20000
+version: "0.1"
+sort: by_weight
+...
 
 # a
 aback	aback
