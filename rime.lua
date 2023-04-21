@@ -17,4 +17,3 @@ unicode_translator = require('unicode')
 number_translator = require('number')
 
 -- Filters
-long_word_filter = require('long_word')
